@@ -29,7 +29,7 @@ const SignUp=()=>{
             <input type="checkbox" name="" id="" className="h-5 w-5"></input>
             <p className="w-">i agree to terms and conditions</p>
            </div>
-         <button className="w-[80vw] mt-3 bg-green-700 py-4 text-white rounded-2xl font-semibold">create account</button>
+         <button className="w-[80vw] mt-3 bg-green-700 py-4 text-white rounded-2xl font-semibold ">create account</button>
          <div className="flex w-[90%] gap-10 ">
          <p className=" ">already have an account</p>
          <p>sign in here</p>

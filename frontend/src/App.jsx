@@ -1,6 +1,8 @@
 import NavBar from "./NavBar.jsx"
 import SignUp from "./SignUp.jsx"
-
+import SignIn from "./SignIn.jsx"
+import ProductCard from "./ProductCard.jsx"
+import Home from "./Home.jsx"
 function App() {
   return (
     
@@ -10,9 +12,9 @@ function App() {
       //   <ProductCard/>
       // </div>
       
-     <div>
-      <NavBar/>
-      <SignUp/>
+     <div className="">
+      
+     <Home/>
      </div> 
   )
 }
