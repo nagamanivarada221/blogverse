@@ -3,19 +3,17 @@ import SignUp from "./SignUp.jsx"
 import SignIn from "./SignIn.jsx"
 import ProductCard from "./ProductCard.jsx"
 import Home from "./Home.jsx"
+import {Routes,Route} from 'react-router-dom'
 function App() {
   return (
     
-      // <div className="flex justify-center items-center min-h-screen gap-2">
-      //   <ProductCard/>
-      //   <ProductCard/>
-      //   <ProductCard/>
-      // </div>
-      
-     <div className="">
-      
-     <Home/>
-     </div> 
+     <Routes>
+      <Route path="/signup" element={<SignUp/>}/>
+      <Route path="/home" element={<Home/>}/> 
+     <Route path="/signin" element={<SignIn/>}/>
+     </Routes>
+   
+    
   )
 }
 
